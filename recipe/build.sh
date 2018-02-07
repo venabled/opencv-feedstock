@@ -74,10 +74,10 @@ cmake -LAH                                                                \
     -DWITH_CUDA=0                                                         \
     -DWITH_OPENCL=0                                                       \
     -DWITH_OPENNI=0                                                       \
-    -DWITH_FFMPEG=1                                                       \
+    -DWITH_FFMPEG=0                                                       \
     -DWITH_MATLAB=0                                                       \
     -DWITH_VTK=0                                                          \
-    -DWITH_QT=$QT                                                         \
+    -DWITH_QT=0                                                        \
     -DWITH_GPHOTO2=0                                                      \
     -DINSTALL_C_EXAMPLES=0                                                \
     -DOPENCV_EXTRA_MODULES_PATH="../opencv_contrib-$PKG_VERSION/modules"  \
